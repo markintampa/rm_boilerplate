@@ -1,12 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ProMotion (2.6.0)
+      methadone (~> 1.7)
+      motion_print (~> 1.0)
+    bubble-wrap (1.9.6)
+    methadone (1.9.2)
+      bundler
+    motion_print (1.2.0)
     rake (11.1.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  ProMotion (~> 2.5)
+  bubble-wrap (~> 1.9.6)
   rake
 
 BUNDLED WITH

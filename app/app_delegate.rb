@@ -1,15 +1,7 @@
-class AppDelegate
-  def application(application, didFinishLaunchingWithOptions:launchOptions)
-    rootViewController = UIViewController.alloc.init
-    rootViewController.title = 'rm_boilerplate'
-    rootViewController.view.backgroundColor = UIColor.whiteColor
+class AppDelegate < PM::Delegate
+  status_bar true, animation: :fade
 
-    navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
-
-    @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
-    @window.rootViewController = navigationController
-    @window.makeKeyAndVisible
-
-    true
+  def on_load(app, options)
+    open RootScreen
   end
 end
