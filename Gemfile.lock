@@ -9,6 +9,7 @@ GEM
       bundler
     motion_print (1.2.0)
     rake (11.1.2)
+    ruby_motion_query (1.7.0)
 
 PLATFORMS
   ruby
@@ -17,6 +18,7 @@ DEPENDENCIES
   ProMotion (~> 2.5)
   bubble-wrap (~> 1.9.6)
   rake
+  ruby_motion_query
 
 BUNDLED WITH
    1.12.3
